@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfoilo/static/css/main.13b2dc37.css",
-    "main.js": "/react-portfoilo/static/js/main.08560c18.js",
+    "main.css": "/react-portfoilo/static/css/main.2f7b3e66.css",
+    "main.js": "/react-portfoilo/static/js/main.9252cac4.js",
     "static/media/1.jpeg": "/react-portfoilo/static/media/1.aa6aaf3475ec99db15e6.jpeg",
     "static/media/project2.webp": "/react-portfoilo/static/media/project2.fc906070e9796abe3650.webp",
     "static/media/project3.webp": "/react-portfoilo/static/media/project3.b094b696f75369270c95.webp",
@@ -11,11 +11,11 @@
     "static/media/man.png": "/react-portfoilo/static/media/man.58008a565ab6f0db4d93.png",
     "static/media/Example-Cv.pdf": "/react-portfoilo/static/media/Example-Cv.e83747cf513e0b21a7f1.pdf",
     "index.html": "/react-portfoilo/index.html",
-    "main.13b2dc37.css.map": "/react-portfoilo/static/css/main.13b2dc37.css.map",
-    "main.08560c18.js.map": "/react-portfoilo/static/js/main.08560c18.js.map"
+    "main.2f7b3e66.css.map": "/react-portfoilo/static/css/main.2f7b3e66.css.map",
+    "main.9252cac4.js.map": "/react-portfoilo/static/js/main.9252cac4.js.map"
   },
   "entrypoints": [
-    "static/css/main.13b2dc37.css",
-    "static/js/main.08560c18.js"
+    "static/css/main.2f7b3e66.css",
+    "static/js/main.9252cac4.js"
   ]
 }
