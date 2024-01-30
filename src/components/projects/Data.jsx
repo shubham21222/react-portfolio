@@ -7,19 +7,19 @@ export const projectsData = [
     {
         id: 1,
         image: Project1,
-        title: "Project 1",
+        title: "Crypto-Currency Web-app",
         category: "A",
     },
     {
         id: 2,
         image: Project2,
-        title: "Project 2",
+        title: "Ecommarce Vendors Management Web-app",
         category: "B",
     },
     {
         id: 3,
         image: Project3,
-        title: "Project 3",
+        title: "Ecommarce Website with Django",
         category: "C",
     },
 ];
