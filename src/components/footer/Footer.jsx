@@ -14,9 +14,6 @@ const Footer = () => {
                 <li>
                     <a href="#portfolio" className="footer__link">Projects</a>
                 </li>
-                <li>
-                    <a href="#testimonials" className="footer__link">Testimonials</a>
-                </li>
             </ul>
             <div className="footer__social">
                 <a href="https://x.com/shubham_2221" className="home__social-icon" target="_blank" rel="noreferrer">

@@ -55,13 +55,15 @@ const Header = () => {
                                 <HiOutlineMail className="nav__icon"/>Contact
                             </a>
                         </li>
+                        <li><DarkMode/></li>
                     </ul>
+                    
                     <HiX className="nav__close" onClick={() => showMenu(!Toggle)} />
                 </div>
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                     <HiOutlineMenu />
                 </div>
-                <DarkMode/>
+                
             </nav>
         </header>
     )

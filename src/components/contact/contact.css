@@ -1,4 +1,5 @@
 .contact__container {
+    display: grid;
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
     column-gap: 6rem;
@@ -15,7 +16,7 @@
 .contact__info {
     display: grid;
     row-gap: 1rem;
-    grid-template-columns: 300px;
+    grid-template-columns: 1fr; /* Adjusted for mobile */
 }
 
 .contact__card {
@@ -32,7 +33,8 @@
     margin-bottom: var(--mb-0-25);
 }
 
-.contact__card-title, .contact__card-data {
+.contact__card-title,
+.contact__card-data {
     font-size: var(--small-font-size);
 }
 
@@ -64,7 +66,9 @@
 }
 
 .contact__form {
-    width: 360px;
+    width: 100%; /* Adjusted for mobile */
+    max-width: 360px; /* Added max-width for better responsiveness */
+    margin: 0 auto; /* Center align on smaller screens */
 }
 
 .contact__form-div {
@@ -106,7 +110,7 @@
     resize: none;
 }
 
-/* BREAK POINTS */
+/* Media Queries */
 @media screen and (max-width: 992px) {
     .contact__container {
         column-gap: 3rem;
@@ -118,41 +122,22 @@
         grid-template-columns: 1fr;
         row-gap: 3rem;
     }
-
-    .contact__info {
-        justify-content: center;
-    }
-
-    .contact__form {
-        margin: 0 auto;
-    }
-
 }
 
 @media screen and (max-width: 576px) {
-    .contact__info {
+    .contact__container {
         grid-template-columns: 1fr;
-    }
-
-    .contact__form {
-        width: 100%;
+        column-gap: 3rem; /* Adjusted column-gap for smaller screens */
     }
 }
 
 @media screen and (max-width: 350px) {
-}
+    .contact__container {
+        column-gap: 2rem; /* Adjusted column-gap for even smaller screens */
+    }
 
-:root.dark-mode-active {
-    --container-color: #121212; /* Change container color for dark mode */
-    --title-color: #fff; /* Change title color for dark mode */
-    --text-color: #fff; /* Change text color for dark mode */
-}
-
-/* Apply dark mode styles to .contact__container */
-.contact__container {
-    grid-template-columns: repeat(2, max-content);
-    justify-content: center;
-    column-gap: 6rem;
-    padding-bottom: 3rem;
-    color: var(--text-color); /* Apply text color */
+    .contact__form {
+        width: 100%; /* Adjusted width for smaller screens */
+        max-width: unset; /* Removed max-width for smaller screens */
+    }
 }

@@ -29,7 +29,7 @@ const Services = () => {
                         <HiX onClick={() => toggleTab(0)} className="services__modal-close" />
                         <h3 className="services__modal-title">Developer</h3>
                         <p className="services__modal-description">
-                            Over 3 years of experience in web development providing quality work.
+                            Over 2 years of experience in web development providing quality work.
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
@@ -98,7 +98,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <HiOutlineClipboardList className="services__icon" />
-                    <h3 className="services__title">Digital<br />Branding</h3>
+                    <h3 className="services__title">CRM<br/>Devleoper</h3>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(3)}>
                     View More
@@ -107,27 +107,27 @@ const Services = () => {
                 <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
                         <HiX onClick={() => toggleTab(0)} className="services__modal-close" />
-                        <h3 className="services__modal-title">Branding</h3>
+                        <h3 className="services__modal-title">Devloper</h3>
                         <p className="services__modal-description">
-                            Over 3 years experience in branding providing quality work.
+                            Over 1 years experience in Devloping CRM.
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon" />
                                 <p className="services__modal-info">
-                                    Company logo and branding
+                                    Design CRM
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon" />
                                 <p className="services__modal-info">
-                                    Custom website and landing page
+                                    Develop Customize CRM
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <HiOutlineCheckCircle className="services__modal-icon" />
                                 <p className="services__modal-info">
-                                    Design product mockups
+                                    Design CRM mockups
                                 </p>
                             </li>
                         </ul>
