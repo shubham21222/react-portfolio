@@ -141,3 +141,18 @@
 
 @media screen and (max-width: 350px) {
 }
+
+:root.dark-mode-active {
+    --container-color: #121212; /* Change container color for dark mode */
+    --title-color: #fff; /* Change title color for dark mode */
+    --text-color: #fff; /* Change text color for dark mode */
+}
+
+/* Apply dark mode styles to .contact__container */
+.contact__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 3rem;
+    color: var(--text-color); /* Apply text color */
+}

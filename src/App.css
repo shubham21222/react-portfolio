@@ -42,6 +42,15 @@
     --z-modal: 1000;
 }
 
+:root.dark-mode-active {
+    --body-color: #121212;
+    --text-color: #fff;
+    --title-color: hsl(75, 46%, 51%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+
+    /* Adjust other variables for dark mode as needed */
+}
+
 /* RESPONSIVE TYPOGRAPHY */
 @media screen and (max-width: 992px) {
     :root {
@@ -195,4 +204,14 @@ img {
         margin-right: var(--mb-1);
     }
 
+}
+
+:root.dark-mode-active {
+    /* Other dark mode styles */
+    
+    --label-color: #fff; /* Change label color for dark mode */
+}
+
+.dark_mode_label {
+    color: var(--label-color);
 }

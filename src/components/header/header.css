@@ -119,3 +119,7 @@
         column-gap: 0;
     }
 }
+
+:root.dark-mode-active .header {
+    background-color: #121212; /* Black background for dark mode */
+}

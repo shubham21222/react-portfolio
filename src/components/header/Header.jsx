@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './header.css';
 import { HiOutlineHome, HiOutlineUser, HiOutlineBadgeCheck, HiOutlineClipboardList, HiOutlinePhotograph, HiOutlineMail, HiX, HiOutlineMenu } from "react-icons/hi";
-
+import DarkMode from "../Darkbackground/DarkMode";
 
 const Header = () => {
     window.addEventListener("scroll", function () {
@@ -61,6 +61,7 @@ const Header = () => {
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                     <HiOutlineMenu />
                 </div>
+                <DarkMode/>
             </nav>
         </header>
     )

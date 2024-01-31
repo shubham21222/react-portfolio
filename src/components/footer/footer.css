@@ -54,6 +54,21 @@
     font-size: var(--smaller-font-size);
 }
 
+/* Dark mode styles */
+:root.dark-mode-active .footer {
+    background-color: #121212; /* Black background for dark mode */
+}
+
+:root.dark-mode-active .footer__title,
+:root.dark-mode-active .footer__link,
+:root.dark-mode-active .footer__copy {
+    color: #fff; /* White color for dark mode */
+}
+
+:root.dark-mode-active .footer__social-link {
+    background-color: var(--title-color-dark);
+}
+
 /* BREAK POINTS */
 @media screen and (max-width: 992px) {
     .footer__social-link {
@@ -62,3 +77,4 @@
         font-size: 1rem;
     }
 }
+
