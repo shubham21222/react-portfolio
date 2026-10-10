@@ -6,16 +6,28 @@
 
 .skills__content {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 2rem 4rem;
+    border: 1px solid var(--border-color);
+    padding: 2rem 2.5rem;
     border-radius: 1.25rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.skills__content:hover {
+    border-color: var(--accent);
+    box-shadow: var(--shadow);
+    transform: translateY(-4px);
 }
 
 .skills__title {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-bold);
+    color: var(--title-color);
     text-align: center;
     margin-bottom: var(--mb-1-5);
+}
+
+.skills svg {
+    color: var(--accent) !important;
 }
 
 .skills__box {
