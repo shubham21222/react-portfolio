@@ -55,9 +55,11 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">FrontEnd Developer</h3>
+      <h3 className="home__subtitle">Full Stack · AI · Web3 Developer</h3>
       <p className="home__description">
-        ✨ Front-end developer turning designs into reality.{" "}
+        I build fast, scalable web &amp; mobile products — from Next.js front-ends
+        and Node/Python back-ends to AI features and on-chain Web3 integrations.
+        Top Rated on Upwork with a 100% Job Success Score.
       </p>
 
       <a href="#contact" className="button button--flex">

@@ -5,14 +5,18 @@
 :root {
     --header-height: 3rem;
     /* HSL COLORS */
-    --hue: 0;
-    --sat: 0%;
-    --title-color: hsl(var(--hue), var(--sat), 20%);
-    /* --title-color-dark: hsl(var(--hue), var(--sat), 0%); */
-    --title-color-dark: hsl(75, 46%, 51%);
-    --text-color: hsl(var(--hue), var(--sat), 46%);
-    --body-color: hsl(var(--hue), var(--sat), 98%);
+    --hue: 250;
+    --sat: 12%;
+    --accent: hsl(250, 84%, 62%);
+    --accent-2: hsl(190, 90%, 50%);
+    --accent-soft: hsla(250, 84%, 62%, 0.12);
+    --title-color: hsl(var(--hue), 20%, 16%);
+    --title-color-dark: var(--accent);
+    --text-color: hsl(var(--hue), 10%, 42%);
+    --body-color: hsl(var(--hue), 30%, 98%);
     --container-color: #fff;
+    --border-color: hsl(var(--hue), 18%, 90%);
+    --shadow: 0 16px 40px -12px hsla(250, 40%, 20%, 0.18);
     /* STATIC TYPOGRAPHY */
     --body-font: "Nunito", sans-serif;
     --big-font-size: 3.5rem;
@@ -43,12 +47,15 @@
 }
 
 :root.dark-mode-active {
-    --body-color: #121212;
-    --text-color: #fff;
-    --title-color: hsl(75, 46%, 51%);
-    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-
-    /* Adjust other variables for dark mode as needed */
+    --body-color: hsl(250, 24%, 8%);
+    --container-color: hsl(250, 18%, 12%);
+    --text-color: hsl(250, 12%, 70%);
+    --title-color: hsl(250, 20%, 96%);
+    --title-color-dark: var(--accent);
+    --accent: hsl(252, 95%, 72%);
+    --accent-soft: hsla(252, 95%, 72%, 0.16);
+    --border-color: hsl(250, 16%, 20%);
+    --shadow: 0 16px 40px -12px rgba(0, 0, 0, 0.6);
 }
 
 /* RESPONSIVE TYPOGRAPHY */
@@ -140,15 +147,18 @@ img {
 /* BUTTONS */
 .button {
     display: inline-block;
-    background-color: var(--title-color);
-    color: var(--container-color);
+    background-color: var(--accent);
+    color: #fff;
     padding: 1.25rem 2rem;
     border-radius: 1rem;
     font-weight: var(--font-medium);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: var(--title-color-dark);
+    background-color: hsl(250, 84%, 56%);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px -8px var(--accent);
 }
 
 .button__icon {
