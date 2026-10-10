@@ -54,11 +54,62 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">BE</h3>
-                <span className="qualification__subtitle">RGPV Bhopal</span>
+                <h3 className="qualification__title">Bachelor of Engineering</h3>
+                <span className="qualification__subtitle">SDITS, Khandwa (M.P.)</span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2014-2018
+                  2014 - 2018
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">PGDCA</h3>
+                <span className="qualification__subtitle">
+                  Post Graduate Diploma in Computer Applications
+                </span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Problem Solving Certificate
+                </h3>
+                <span className="qualification__subtitle">HackerRank</span>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+          </div>
+          <div
+            className={
+              toggleState === 2
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }
+          >
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Freelance Full Stack Developer
+                </h3>
+                <span className="qualification__subtitle">
+                  Upwork · Top Rated
+                </span>
+                <div className="qualification__calendar">
+                  <HiOutlineCalendar className="qualification__calendar-icon" />
+                  Dec 2024 - Present
                 </div>
               </div>
               <div>
@@ -74,87 +125,27 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Full Stack Developer</h3>
-                <span className="qualification__subtitle"></span>
+                <span className="qualification__subtitle">CONTROLF5</span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2022-2024
+                  Apr 2024 - Nov 2024
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            className={
-              toggleState === 2
-                ? "qualification__content qualification__content-active"
-                : "qualification__content"
-            }
-          >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Wordprees Developer</h3>
+                <h3 className="qualification__title">Full Stack Developer</h3>
                 <span className="qualification__subtitle">
                   TechRitzy Pvt Ltd
                 </span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2021-2022
+                  Mar 2022 - Apr 2024
                 </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Junior Developer</h3>
-                <span className="qualification__subtitle">
-                  TechRitzy Pvt Ltd
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2022-2023
-                </div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">
-                  Senior Full Stack Developer{" "}
-                </h3>
-                <span className="qualification__subtitle">
-                  TechRitzy Pvt Ltd
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2023-present
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Senior Developer</h3>
-                <span className="qualification__subtitle">
-                  Freelance - Remote
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2023-Present
-                </div>
               </div>
             </div>
           </div>

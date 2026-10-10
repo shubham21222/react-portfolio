@@ -55,6 +55,15 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
+      <a
+        href="https://www.upwork.com/freelancers/~01feef15139fa7a489"
+        className="home__badge"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span className="home__badge-dot"></span>
+        Top Rated on Upwork · 100% Job Success
+      </a>
       <h3 className="home__subtitle">Full Stack · AI · Web3 Developer</h3>
       <p className="home__description">
         I build fast, scalable web &amp; mobile products — from Next.js front-ends
